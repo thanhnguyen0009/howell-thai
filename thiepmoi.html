@@ -223,18 +223,18 @@
                 <hr class="line">
             </div>
                 <div class="container-check">
-                    <input class="box-feed" type="radio" value="CÓ" id="yes" name="XÁC NHẬN">
+                    <input class="box-feed" type="radio" value="CÓ" id="yes" name="CONFIRM">
                     <label class="check-box" for="yes">
                         <h3 class="til-check">YES, I’LL BE THERE <br> <i>Vâng, tôi sẽ có mặt</i></h3>
                     </label>
-                    <input class="box-feed" type="radio" value="KHÔNG" id="no" name="XÁC NHẬN">
+                    <input class="box-feed" type="radio" value="KHÔNG" id="no" name="CONFIRM">
                     <label class="check-box2" for="no"> 
                         <h3 class="til-check">SORRY, WE WON’T BE ABLE TO ATTEND <br> <i>Xin lỗi, chúng tôi không thể tham gia</i></h3>
                     </label>
                 </div>
                 
                 <div class="box-ten">
-                    <input required class="inp-ten" type="text" name="SỐ KHÁCH" placeholder="HOW MANY SEATS SHOULD WE RESERVE IN YOUR HONOR?
+                    <input required class="inp-ten" type="text" name="NUMBER OF SEATS" placeholder="HOW MANY SEATS SHOULD WE RESERVE IN YOUR HONOR?
                     Chúng tôi cần đặt bao nhiêu chỗ cho bạn?" maxlength="1" title="Vui lòng nhập đúng 1 chữ số" pattern="\d" />
                 </div>
                 <div class="box-label">
@@ -242,20 +242,20 @@
                     <label for="" class="lb-text2">BẠN CÓ HẠN CHẾ HOẶC DỊ ỨNG VỀ ẨM THỰC KHÔNG?</label>
                 </div>
                 <div class="container-check">
-                    <input class="box-feed" type="radio" value="YES" id="yfood" name="LƯU Ý THỨC ĂN">
+                    <input class="box-feed" type="radio" value="YES" id="yfood" name="ALLERGIES">
                     <label class="check-box" for="yfood">
                         <h3 class="til-check2">YES <i class="fa-solid fa-circle"></i> <i>Có</i></h3>
                     </label>
-                    <input class="box-feed" type="radio" value="NO" id="nfood" name="LƯU Ý THỨC ĂN">
+                    <input class="box-feed" type="radio" value="NO" id="nfood" name="ALLERGIES">
                     <label class="check-box" for="nfood"> 
                         <h3 class="til-check2">NO <i class="fa-solid fa-circle"></i> <i>Không</i></h3>
                     </label>
                 </div>
                 <div class="box-ten">
-                <input required class="inp-ten2" type="text"  name="TÊN" placeholder="PLEASE SPECIFY - Vui lòng ghi rõ">
+                <input class="inp-ten2" type="text"  name="ALLERGY INGREDIENTS" placeholder="PLEASE SPECIFY - Vui lòng ghi rõ">
                 </div>
                 <div class="box-ten">
-                    <textarea id="loi-chuc" name="LỜI CHÚC" rows="4" cols="50" placeholder="WHAT ARE YOUR FAVORITE DANCE SONGS?
+                    <textarea id="loi-chuc" name="FAVORITE SONGS" rows="4" cols="50" placeholder="WHAT ARE YOUR FAVORITE DANCE SONGS?
                     Bài hát yêu thích của bạn là bài gì?"></textarea>
                 </div>
                 <div class="wrapper">
@@ -314,7 +314,7 @@
 
     </script>
 <script>
-       const scriptURL = 'https://script.google.com/macros/s/AKfycbxegZYDLzB7xP_XeHohRl0wBa-L_Xrq1LbF5Lqjqiu5UafSxNp8cnoI0vBy8sKOodtn/exec';
+       const scriptURL = 'https://script.google.com/macros/s/AKfycbwT18AvVjoPlE-jMhjKolUjrrNxvNfFKGRmU6WE3y1nltfuzqENOhn-xIqnaVfzUTDm/exec';
         const form = document.forms['howell-thai'];
 
         form.addEventListener('submit', e => {
