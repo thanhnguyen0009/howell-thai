@@ -1294,5 +1294,8 @@ input::placeholder, textarea::placeholder{
     .check-box{
         width: 160px;
     }
+    .inp-ten{
+        width: 85%;
+    }
   }
   
