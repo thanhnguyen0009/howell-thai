@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Thông tin Open Graph cho ảnh đại diện -->
+    <!-- <meta property="og:image" content="https://yenstudio.com.vn/howell-thai.jpg" /> -->
+    <meta property="og:image:width" content="600" /> <!-- Chiều rộng ảnh đại diện -->
+    <meta property="og:image:height" content="300" /> <!-- Chiều cao ảnh đại diện -->
+
+    <!-- Các thông tin khác cho Open Graph -->
+    <meta property="og:title" content="HOWELL - THAI" />
+    <meta property="og:description" content="SEAN HOWELL - NHU THAI" />
+    <!-- <meta property="og:url" content="https://yenstudio.com.vn/howell-thai/thiepmoi.html" /> -->
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./howell-thai//style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>SEAN HOWELL - NHU THAI</title>
+</head>
+<body>
+    <div id="loading-container" class="loading-container">
+        <div class="spinner"></div>
+    </div>
+    <div class="container">
+        <div class="container-wrapper">
+            <!-- <div class="box-circle">
+                <div class="circle" id="musicCircle">
+                    <img src="./howell-thai//anh/cd.png" alt="Music Icon" class="circle-image">
+                    <audio id="audio" src="./howell-thai//audio/lana-del-rey-video-games-128-ytshorts.savetube.me.mp3" loop></audio>
+                </div>
+                <label for="audio" class="lb-circle">No Music? <br> Click Me</label>
+            </div> -->
+
+            <div class="box-p1">
+                <div class="p1">
+                    <label for="" class="p1-lb1">Pho-ever starts here!</label>
+                    <img src="./howell-thai/anh/icon1-10.png" alt="" class="p1-img1">
+                    <label for="" class="p1-lb2">WELCOME TO OUR WEDDING IN VIETNAM!</label>
+                    <label for="" class="p1-lb3">#HowellThaiTheKnot</label>
+                    <label for="" class="p1-dot1"><i class="fa-solid fa-diamond"></i></label>
+                    <label for="" class="p1-name">Nhu Mandy Thai</label>
+                    <label for="" class="p1-and">and</label>
+                    <label for="" class="p1-name">Sean Howell</label>
+                </div>
+            </div>
+
+            <div class="box-p2">
+                <div class="p2">
+                    <img src="./howell-thai/anh/IMG_8115.webp" alt="" class="p2-img1">
+                    <label for="" class="p2-lb1">Date & Time</label>
+                    <img src="./howell-thai/anh/flow1-10.png" alt="" class="p2-img2">
+                    <label for="" class="p2-lb2">An Lam Retreats</label>
+                    <label for="" class="p2-lb3"> 21/4 Trung Street Vinh Phu Ward Thuan An City, Binh Duong</label>
+                    <label for="" class="p2-dot1"><i class="fa-solid fa-diamond"></i></label>
+                    <label for="" class="p2-lb4">MARCH 07, 2026</label>
+                    <a href="#" class="p2-map">MAPS</a>
+                </div>
+            </div>
+
+           <div class="box-p3">
+                <div class="p3">
+                    <img src="./howell-thai/anh/pic1-10.png" alt="" class="img-p3">
+                </div>
+           </div>
+
+           <div class="box-p4">
+                <div class="p4">
+                    <label for="" class="lb-p4">timeline</label>
+                    <label for="" class="p4-dot1"><i class="fa-solid fa-diamond"></i></label>
+                    <div class="box-timeline">
+                        <div class="timeline">
+                            <label for="" class="lb-timeline1">WELCOME<br>
+                                GUESTS</label>
+                            <img src="./howell-thai/anh/timeline1-10.png" alt="" class="img-timeline">
+                            <label for="" class="lb-timeline2">16:00</label>
+                        </div>
+                        <div class="timeline">
+                            <label for="" class="lb-timeline1">CEREMONY <br>
+                                &nbsp</label>
+                            <img src="./howell-thai/anh/timeline2-10.png" alt="" class="img-timeline">
+                            <label for="" class="lb-timeline2">16:30</label>
+                        </div>
+                        <div class="timeline">
+                            <label for="" class="lb-timeline1">RECEPTION <br>
+                                &nbsp</label>
+                            <img src="./howell-thai/anh/timeline3-10.png" alt="" class="img-timeline">
+                            <label for="" class="lb-timeline2">18:00</label>
+                        </div>
+                         <div class="timeline">
+                            <label for="" class="lb-timeline1">SEND OFF <br></label>
+                            <img src="./howell-thai/anh/timeliune4-10.png" alt="" class="img-timeline">
+                            <label for="" class="lb-timeline2">22:00</label>
+                        </div>
+                    </div>
+                    <img src="./howell-thai/anh/flow2-10.png" alt="" class="p4-img1">
+                    <label for="" class="p4-lb2">dresscode</label>
+                    <label for="" class="p4-dot1"><i class="fa-solid fa-diamond"></i></label>
+                    <label for="" class="p4-lb3">Fomal - <strong>No White</strong> <img src="./howell-thai/anh/none-10.png" alt="" class="img-lb"></label>
+                </div>
+           </div>
+           
+
+           <div class="box-slider">
+              <!-- Slider container -->
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./howell-thai/anh/IMG_8108.webp" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="./howell-thai/anh/IMG_8109.webp" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./howell-thai/anh/IMG_8112.webp" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./howell-thai/anh/IMG_8113.webp" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./howell-thai/anh/IMG_8114.webp" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./howell-thai/anh/IMG_8115.webp" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./howell-thai/anh/IMG_8116.webp" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./howell-thai/anh/IMG_8118.webp" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./howell-thai/anh/IMG_8119.webp" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./howell-thai/anh/IMG_8121.webp" alt="" />
+                    </div>
+                
+
+                    <button class="btn btn-next"><i class="fa-solid fa-caret-right"></i></button>
+                    <button class="btn btn-prev"><i class="fa-solid fa-caret-left"></i></button>
+                </div>
+            </div>
+            
+
+            <div class="box-p6">
+                <div class="p6">
+                    <label for="" class="p6-lb1">Exploring Ho Chi Minh City</label>
+                    <div class="box-pp">
+                        <p for="" class="p6-p1">We’re thrilled you’ve decided to join us in Ho Chi Minh City! </p>
+                        <label for="" class="p6-dot1"><i class="fa-solid fa-diamond"></i></label>
+                        <p for="" class="p6-p1">Mandy was born and raised here, spent the first 18 years of her life in this vibrant city that holds a special place in her heart. She’s excited to share its beauty, energy, and culture with you—and has put together a travel guide to help you make the most of your time here!</p>
+                    </div>
+                    <a href="#" class="p6-a">HO CHI MINH CITY TRAVEL GUIDE</a>
+                    <img src="./howell-thai/anh/pic2-10.png" alt="" class="p6-img">
+                </div>
+            </div>
+
+            <div class="box-p7">
+                <div class="p7">
+                    <label for="" class="p7-lb1">Travel</label>
+                    <label for="" class="p7-dot1"><i class="fa-solid fa-diamond"></i></label>
+                    <label for="" class="p7-lb2">Flights & Arrival</label>
+                    <div class="box-p">
+                        <p class="p7-p1"><strong>Best Airports to Fly Into:</strong> Book a flight to Tan Son Nhat International Airport (SGN), the main airport in Ho Chi Minh City.</p>
+                        <p class="p7-p1"><strong>Popular Airlines:</strong> Major airlines like EVA Air, Singapore Airlines, Qatar Airways, Cathay Pacific, Korean Air and ANA offer comfortable flights with layovers in hubs like Taipei, Singapore, Tokyo, Hongkong, Incheon or Doha.</p>
+                        <p class="p7-p2"><strong>Visa Requirements:</strong> U.S. citizens need a visa to enter Vietnam. You can apply for an eVisa online ahead of time.</p>
+                        <a href="#" class="p7-a">CLICK HERE</a>
+                        <p class="p7-p2">Please refer to this link for more travel and health information</p>
+                        <a href="#" class="p7-a">CLICK HERE</a>
+                        <p class="p7-p1">Vaccination: Check with your doctor for recommended vaccines when traveling to Southeast Asia.</p>
+                    </div>
+
+                    <label for="" class="p7-dot1"><i class="fa-solid fa-diamond"></i></label>
+                    <label for="" class="p7-lb2">Getting Around</label>
+                    <div class="box-p">
+                        <p class="p7-p1"><strong>Airport to City: </strong>Take a Vinasun or Mai Linh taxi, or use Grab (similar to Uber). Avoid unmarked taxis to prevent scams.</p>
+                        <p class="p7-p1"><strong>Local Transportation:</strong> Walking is great for exploring, but Grab is the best option for longer distances.</p>
+                        <p class="p7-p1"><strong>eSIM:</strong>We recommend getting an eSIM for your trip if your phone supports eSIMS. This is much cheaper than paying roaming costs to your US network. <br> Get your eSIM here <a href="#" class="p7-a1">CLICK HERE</a> and use code NhuThai for a 10% discount.</p>
+                        <p class="p7-p">How Do I Know if My Phone Supports eSIM?</p>
+                        <a href="#" class="p7-a">CLICK HERE</a>
+                    </div>
+
+                    <label for="" class="p7-dot1"><i class="fa-solid fa-diamond"></i></label>
+                    <label for="" class="p7-lb2">Where to Stay</label>
+                    <div class="box-p">
+                        <p class="p7-p1">Ho Chi Minh City offers a wide range of hotels and Airbnbs at various price points, making it easy to find accommodation that suits your budget and preferences. Here are a few popular districts to consider when choosing where to stay:</p>
+                        <p class="p7-p"><strong>• District 1:</strong>The city’s central hub, home to major attractions, museums, luxury hotels, top restaurants, and vibrant nightlife.</p>
+                        <p class="p7-p"><strong>• District 3:</strong> A more relaxed, residential area next to District 1, known for its trendy coffee shops, bars, restaurants, and boutique hotels.</p>
+                        <p class="p7-p"><strong>• District 2:</strong>: Located across the Saigon River, this is a quieter area popular among expats, offering a variety of international restaurants, grocery stores, and businesses catering to English speakers.</p>
+                        <p class="p7-p"><strong>• District 10 (Where Mandy's from):</strong> A great choice for those wanting a truly local experience, featuring amazing street food, a lively night market, and only 4 km to District 1.</p>
+                        <p class="p7-p"><strong>• District 4:</strong>Ideal for those who want to embrace Vietnamese culture, with a low cost of living. You'll be sandwiched between district 1 and 7. This means if you want a wild night, district 1 is right next door, but you can go to district 7 (2nd popular district for expats) the next morning for a calm brunch.</p>
+                    </div>
+
+                    <label for="" class="p7-dot1"><i class="fa-solid fa-diamond"></i></label>
+                    <label for="" class="p7-lb2">Weather & Packing Tips</label>
+                    <div class="box-p">
+                        <p class="p7-p1">Ho Chi Minh City is hot and humid year-round. Pack light, breathable clothes, sunscreen, mosquito repellent spray, and comfortable shoes. <br>
+                            Bring a travel adapter if your electronics don't support Vietnam's Type A, C, or F outlets.</p>
+                    </div>
+                </div>
+            </div>
+         
+            <form action="" name="howell-thai">
+                <div class="box-flow">
+                    <label for="" class="lb-form1">Registry</label>
+                    <a href="#" class="a-product">VIEW PRODUCT</a>
+                    <img src="./howell-thai/anh/flow2-10.png" alt="" class="img-form1">
+                </div>
+                <div class="feed-info">
+                    <lable class="lb-form2">Attendance confirmation</lable>
+                    <lable class="lb-form3">Xác nhận sự có mặt</lable>
+                    <label for="" class="lb-dot"><i class="fa-solid fa-diamond"></i></label>
+                    <label for="" class="in-fe">Confirming attendance at the party. This helps us to host you <br> more thoungtfully and fully. Thank you!!!</label>
+                    <label for="" class="in-fe2">Vui lòng xác nhận sự có mặt của bạn tại bữa tiệc. Điều này giúp chúng tôi tổ chức <br>
+                         chu đáo và đầy đủ hơn cho bạn. Xin cảm ơn!!!</label>
+                <hr class="line">
+            </div>
+                <div class="container-check">
+                    <input class="box-feed" type="radio" value="CÓ" id="yes" name="XÁC NHẬN">
+                    <label class="check-box" for="yes">
+                        <h3 class="til-check">YES, I’LL BE THERE <br> <i>Vâng, tôi sẽ có mặt</i></h3>
+                    </label>
+                    <input class="box-feed" type="radio" value="KHÔNG" id="no" name="XÁC NHẬN">
+                    <label class="check-box2" for="no"> 
+                        <h3 class="til-check">SORRY, WE WON’T BE ABLE TO ATTEND <br> <i>Xin lỗi, chúng tôi không thể tham gia</i></h3>
+                    </label>
+                </div>
+                
+                <div class="box-ten">
+                    <input required class="inp-ten" type="text" name="SỐ KHÁCH" placeholder="HOW MANY SEATS SHOULD WE RESERVE IN YOUR HONOR?
+                    Chúng tôi cần đặt bao nhiêu chỗ cho bạn?" maxlength="1" title="Vui lòng nhập đúng 1 chữ số" pattern="\d" />
+                </div>
+                <div class="box-label">
+                    <label for="" class="lb-text">DO YOU HAVE ANY DIETARY RESTRICTIONS OR ALLERGIES?</label>
+                    <label for="" class="lb-text2">BẠN CÓ HẠN CHẾ HOẶC DỊ ỨNG VỀ ẨM THỰC KHÔNG?</label>
+                </div>
+                <div class="container-check">
+                    <input class="box-feed" type="radio" value="YES" id="yfood" name="LƯU Ý THỨC ĂN">
+                    <label class="check-box" for="yfood">
+                        <h3 class="til-check2">YES <i class="fa-solid fa-circle"></i> <i>Có</i></h3>
+                    </label>
+                    <input class="box-feed" type="radio" value="NO" id="nfood" name="LƯU Ý THỨC ĂN">
+                    <label class="check-box" for="nfood"> 
+                        <h3 class="til-check2">NO <i class="fa-solid fa-circle"></i> <i>Không</i></h3>
+                    </label>
+                </div>
+                <div class="box-ten">
+                <input required class="inp-ten2" type="text"  name="TÊN" placeholder="PLEASE SPECIFY - Vui lòng ghi rõ">
+                </div>
+                <div class="box-ten">
+                    <textarea id="loi-chuc" name="LỜI CHÚC" rows="4" cols="50" placeholder="WHAT ARE YOUR FAVORITE DANCE SONGS?
+                    Bài hát yêu thích của bạn là bài gì?"></textarea>
+                </div>
+                <div class="wrapper">
+                    <button class="xacnhan" type="submit">CONFIRM <i class="fa-solid fa-circle"></i> <i>Xác nhận</i></button>
+                </div>
+                <div class="img-end">
+                    <img src="./howell-thai/anh/IMG_8118.webp" alt="" class="end">
+                </div>
+                <div class="box-end">
+                    <label for="" class="lb-end1">see you soon!</label>
+                    <label for="" class="lb-end2">YÊN STUDIO | YÊN BỀ GIA THẤT</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+
+
+    <script>
+        window.onload = function() {
+    // Lấy tất cả các phần tử cho các hiệu ứng fade-down, fade-up, fade-right, fade-left, zoom-in
+    const fadeDownElements = document.querySelectorAll('.kinhmoi, .lb-inv');  // Các phần tử fade-down
+    const fadeUpElements = document.querySelectorAll('.p2-lb1, .p2-lb2, .p2-lb3, .p4-lb3');    // Các phần tử fade-up
+    const fadeRightElements = document.querySelectorAll('.timeline');                               // Các phần tử fade-right
+    const fadeLeftElements = document.querySelectorAll('.box-nam, .img2');                                // Các phần tử fade-left
+    const zoomInElements = document.querySelectorAll('.lb-p4, .p4-lb2');                // Các phần tử zoom-in
+
+    // Cấu hình của IntersectionObserver
+    const options = {
+        root: null, // Theo mặc định là viewport
+        threshold: 0.5 // Kích hoạt khi 50% phần tử hiển thị trong viewport
+    };
+
+    // Tạo đối tượng IntersectionObserver để theo dõi sự xuất hiện và mất đi của phần tử
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Nếu phần tử xuất hiện trong viewport, thêm lớp "visible"
+                entry.target.classList.add('visible');
+            } else {
+                // Nếu phần tử không còn trong viewport, xóa lớp "visible"
+                entry.target.classList.remove('visible');
+            }
+        });
+    }, options);
+
+    // Quan sát các phần tử theo từng hiệu ứng
+    fadeDownElements.forEach(element => observer.observe(element));
+    fadeUpElements.forEach(element => observer.observe(element));
+    fadeRightElements.forEach(element => observer.observe(element));
+    fadeLeftElements.forEach(element => observer.observe(element));
+    zoomInElements.forEach(element => observer.observe(element));
+};
+
+    </script>
+<script>
+       const scriptURL = 'https://script.google.com/macros/s/AKfycbxegZYDLzB7xP_XeHohRl0wBa-L_Xrq1LbF5Lqjqiu5UafSxNp8cnoI0vBy8sKOodtn/exec';
+        const form = document.forms['howell-thai'];
+
+        form.addEventListener('submit', e => {
+            e.preventDefault(); // Ngừng việc gửi form mặc định
+
+            document.getElementById('loading-container').style.display = 'flex';
+
+            // Gửi dữ liệu form đi
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Nếu dữ liệu gửi thành công, làm mới lại form
+                        form.reset(); // Làm mới lại form
+
+                        document.getElementById('loading-container').style.display = 'none';
+
+                        Swal.fire({
+                            title: 'Thành công',
+                            text: 'Cảm ơn bạn đã gửi phản hồi, thông tin đã được gửi đến dâu rể rồi nhaa <3',
+                            imageWidth: 300,
+                            imageHeight: 200,
+                            confirmButtonText: 'ĐÓNG',
+                            background: '#f8f8f8',
+                            padding: '20px',
+                            customClass: {
+                                popup: 'custom-popup',
+                                title: 'custom-title',
+                                confirmButton: 'custom-confirm-button'
+                            },
+                            didOpen: () => {
+                                document.querySelector('.swal2-popup').style.borderRadius = '10px'; // Bo tròn các góc
+                            }
+                        });
+                    } else {
+                        // Nếu gặp lỗi khi gửi dữ liệu
+                        console.error('Error!', response);
+
+                        document.getElementById('loading-container').style.display = 'none';
+
+                        Swal.fire({
+                            title: 'Oops!',
+                            text: 'Lỗi mất rồi thử lại giúp chúng mình nhé',
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                })
+                .catch(error => {
+                    // Xử lý lỗi nếu có
+                    console.error('Error!', error.message);
+
+                    document.getElementById('loading-container').style.display = 'none';
+
+                    Swal.fire({
+                        title: 'Oops!',
+                        text: 'Lỗi mất rồi thử lại giúp chúng mình nhé',
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                });
+        });
+</script>
+<script>
+    "use strict";
+     // Select all slides
+     const slides = document.querySelectorAll(".slide");
+
+     // Loop through slides và thiết lập translateX cho mỗi slide
+     slides.forEach((slide, indx) => {
+     slide.style.transform = `translateX(${indx * 100}%)`;
+     });
+
+     // Chọn nút next và prev
+     const nextSlide = document.querySelector(".btn-next");
+     const prevSlide = document.querySelector(".btn-prev");
+
+     // Biến đếm số slide hiện tại và tối đa
+     let curSlide = 0;
+     let maxSlide = slides.length - 1;
+
+     // Thêm sự kiện cho nút tiếp theo
+     nextSlide.addEventListener("click", function () {
+     // Nếu hiện tại là slide cuối, quay lại đầu tiên
+     if (curSlide === maxSlide) {
+         curSlide = 0;
+     } else {
+         curSlide++;
+     }
+
+     // Di chuyển tất cả các slide
+     slides.forEach((slide, indx) => {
+         slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+     });
+     });
+
+     // Thêm sự kiện cho nút quay lại
+     prevSlide.addEventListener("click", function () {
+     // Nếu hiện tại là slide đầu tiên, quay lại cuối cùng
+     if (curSlide === 0) {
+         curSlide = maxSlide;
+     } else {
+         curSlide--;
+     }
+
+     // Di chuyển tất cả các slide
+     slides.forEach((slide, indx) => {
+         slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+     });
+     });
+
+  </script>
+   <script>
+const musicCircle = document.getElementById("musicCircle");
+const audio = document.getElementById("audio");
+const videoIframe = document.getElementById("video");
+
+// Thêm sự kiện khi nhấn vào vòng tròn
+musicCircle.addEventListener("click", toggleMusic);
+
+// Hàm điều khiển việc phát hoặc tạm dừng nhạc
+function toggleMusic() {
+    if (audio.paused) {
+        audio.play(); // Phát nhạc
+        musicCircle.classList.add("spin"); // Bắt đầu xoay
+    } else {
+        audio.pause(); // Dừng nhạc
+        musicCircle.classList.remove("spin"); // Dừng xoay
+    }
+}
+
+// Tạo đối tượng YouTube Player API
+let player;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('video', {
+        events: {
+            'onStateChange': onPlayerStateChange
+        }
+    });
+}
+
+// Lắng nghe sự kiện trạng thái của video
+function onPlayerStateChange(event) {
+    // Khi video bắt đầu phát (state = 1), dừng nhạc và dừng xoay vòng tròn
+    if (event.data === YT.PlayerState.PLAYING) {
+        if (!audio.paused) {
+            audio.pause(); // Dừng nhạc
+            musicCircle.classList.remove("spin"); // Dừng xoay vòng tròn
+        }
+    }
+}
+
+// Tải API YouTube
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+</script>
+</body>
+</html>

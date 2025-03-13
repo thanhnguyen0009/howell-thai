@@ -1,0 +1,1298 @@
+@font-face {
+    font-family: 'MTD Doppelganger Display';
+    src: url('./fonts/MTDDoppelgangerDisplay.woff2') format('woff2'),
+        url('./fonts/MTDDoppelgangerDisplay.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamBlack.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham XLight';
+    src: url('./fonts/SVN-GothamXLightItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamXLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham XLight';
+    src: url('./fonts/SVN-GothamXLight.woff2') format('woff2'),
+        url('./fonts/SVN-GothamXLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamThin.woff2') format('woff2'),
+        url('./fonts/SVN-GothamThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamLight.woff2') format('woff2'),
+        url('./fonts/SVN-GothamLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Book';
+    src: url('./fonts/SVN-GothamBook.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-Gotham.woff2') format('woff2'),
+        url('./fonts/SVN-Gotham.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Ultra';
+    src: url('./fonts/SVN-GothamUltra.woff2') format('woff2'),
+        url('./fonts/SVN-GothamUltra.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamBlackItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Book';
+    src: url('./fonts/SVN-GothamBookItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamBold.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamBold.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamBoldItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamLight.woff2') format('woff2'),
+        url('./fonts/SVN-GothamLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamLightItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamThinItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Ultra';
+    src: url('./fonts/SVN-GothamUltraItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamUltraItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamLightItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aston Script';
+    src: url('./fonts/AstonScriptBold-Bold.woff2') format('woff2'),
+        url('./fonts/AstonScriptBold-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+:root{
+    --font-svn: 'SVN-Gotham';
+    --font-mtd: 'MTD Doppelganger Display';
+    --font-aston: 'Aston Script';
+    --primary-color: #4F5638;
+}
+
+
+
+/* Hiệu ứng fade-down */
+.kinhmoi, .lb-inv {
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .kinhmoi.visible, .lb-inv.visible{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* Hiệu ứng fade-up */
+  .p2-lb2, .p2-lb3, .p2-lb1, .p4-lb3{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .p2-lb2.visible, .p2-lb3.visible, .p2-lb1.visible, .p4-lb3.visible{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* Hiệu ứng fade-right */
+  .timeline, .img1 {
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .timeline.visible, .img1.visible{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  /* Hiệu ứng fade-left */
+  .box-nam, .img2 {
+    transform: translateX(50px);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .box-nam.visible, .img2.visible {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  /* Hiệu ứng zoom-in */
+  .lb-p4, .p4-lb2, .lb-dress2, .til1, .til2, .img-time, .img-time2, .box-album2{
+    transform: scale(0.5);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .lb-p4.visible, .p4-lb2.visible, .lb-dress2.visible, .til1.visible, .til2.visible, .img-time.visible, .img-time2.visible, .box-album2.visible{
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Loading screen container */
+.loading-container {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+}
+
+/* Spinner animation */
+.spinner {
+	border: 6px solid rgba(255, 255, 255, 0.3);
+	border-top: 6px solid #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	animation: spin 1s linear infinite;
+}
+
+/* Spinner animation keyframes */
+@keyframes spin {
+	0% {
+			transform: rotate(0deg);
+	}
+	100% {
+			transform: rotate(360deg);
+	}
+}
+
+.custom-popup {
+	font-family: var(--font-lora);
+}
+
+.custom-title {
+	font-weight: bold;
+}
+
+.custom-confirm-button {
+	text-align: center;
+	display: inline-block;
+	border: 2px solid #111;
+	padding: 10px 20px !important;
+	margin: 5px 20px !important;
+	border-radius: 20px !important;
+	font-style: normal;
+	background-color: transparent;
+	color: #111;
+
+	font-size: 13px;
+	font-weight: 400;
+
+	text-transform: uppercase;
+	font-weight: bold;
+}
+/* Spinner animation */
+.spinner {
+	border: 6px solid rgba(255, 255, 255, 0.3);
+	border-top: 6px solid #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	animation: spin 1s linear infinite;
+}
+
+.container{
+    width: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    border: .1px solid #111;
+    color: var(--primary-color);
+}
+
+.container-wrapper{
+    width: 100%;
+}
+
+.box-p1{
+    width: 100%;
+    background-image: url('./anh/back-p1-10.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid black;
+    padding-bottom: 30px;
+}
+
+.p1-lb1{
+    font-family: var(--font-mtd);
+    font-size: 2.5em;
+    margin-top: 130px;
+}
+
+.p1-img1{
+    width: 30%;
+    margin-top: 30px;
+}
+
+.p1-lb2{
+    font-family: var(--font-svn);
+    font-size: .7em;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.p1-lb3{
+    font-family: var(--font-svn);
+    font-size: .6em;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.p1-dot1{
+    font-size: .5em;
+    margin: 90px 0;
+}
+
+.p1-name{
+    font-family: var(--font-aston);
+    font-size: 1.8em;
+}
+
+.p1-and{
+    font-family: var(--font-aston);
+    font-size: .8em;
+}
+
+.box-p2{
+    width: 100%;
+    background-image: url('./anh/back-p2-10.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid black;
+    padding-bottom: 30px;
+}
+
+
+.p2-img1{
+    width: 70%;
+    border: 10px solid var(--primary-color);
+    margin-top: 30px;
+}
+
+.p2-lb1{
+    font-family: var(--font-mtd);
+    font-size: 2.2em;
+    margin-top: 50px;
+}
+
+.p2-img2{
+    width: 15%;
+    margin-top: 50px;
+}
+
+.p2-lb2{
+    font-family: var(--font-aston);
+    font-size: 1.8em;
+    margin-top: 50px;
+}
+
+.p2-lb3{
+    font-family: var(--font-svn);
+    font-size: .7em;
+    font-style: italic;
+}
+
+.p2-dot1{
+    font-size: .5em;
+    margin-top: 50px;
+}
+
+.p2-lb4{
+    font-family: var(--font-svn);
+    font-weight: 500;
+    font-size: .8em;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.p2-map{
+    width: 200px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--font-svn);
+    border-radius: 20px;
+    padding: 3px 150px;
+    margin: 30px 0 100px;
+}
+
+.box-p3{
+    width: 100%;
+    background-image: url('./anh/back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.p3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid black;
+    padding-bottom: 30px;
+}
+
+.img-p3{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.box-p4{
+    width: 100%;
+    background-image: url('./anh/back-p4-10.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.p4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid black;
+    padding-bottom: 30px;
+}
+
+.lb-p4{
+    font-family: var(--font-mtd);
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+
+.p4-dot1{
+    font-size: .5em;
+    margin-top: 50px;
+}
+
+.box-timeline {
+    width: 80%;
+    display: flex; /* Sử dụng flexbox */
+    justify-content: space-between; /* Căn đều các phần tử */
+    gap: 5px; /* Khoảng cách giữa các phần tử */
+    flex-wrap: wrap; /* Đảm bảo phần tử xuống dòng khi không đủ không gian */
+    margin-top: 50px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /* Tạo các phần tử có độ rộng bằng nhau */
+    max-width: 150px; /* Giới hạn độ rộng tối đa của mỗi phần tử */
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font-svn);
+}
+
+.img-timeline {
+    width: 40%; /* Giới hạn chiều rộng của hình ảnh để nó không vượt quá phần tử */
+    height: auto; /* Giữ tỉ lệ hình ảnh */
+    margin: 10px 0;
+}
+
+.lb-timeline1{
+    font-size: .6em;
+    font-weight: 400;
+}
+
+.lb-timeline2{
+    font-size: .6em;
+    font-weight: 600;
+}
+
+
+.p4-img1{
+    width: 30%;
+    margin-top: 50px;
+}
+
+.p4-lb2{
+    font-family: var(--font-mtd);
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+
+.p4-lb3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-svn);
+    font-size: .8em;
+    margin: 40px 0 50px;
+}
+
+.img-lb{
+    width: 20%;
+    padding-left: 10px;
+}
+
+
+.box-slider{
+    background-image: url('./anh/back.jpg');
+    padding-top: 100px;
+}
+
+/* SLIDER */
+.slider {
+    width: 100%;
+    max-width: 800px;
+    height: 700px;
+    position: relative;
+    overflow: hidden; /* Ẩn phần ảnh vượt ngoài slider */
+    border-radius: 15px;
+}
+  
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s;
+}
+  
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Đảm bảo ảnh vừa với 2 bên khung */
+    object-position: center; /* Căn giữa ảnh */
+}
+
+/* Nút điều hướng */
+.btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+    color: #111;
+}
+.btn:active {
+    transform: scale(1.1);
+}
+.btn-prev {
+    top: 45%;
+    left: 2%;
+}
+  
+.btn-next {
+    top: 45%;
+    right: 2%;
+}
+
+ 
+
+
+.img-flow3{
+    width: 30%;
+    margin: 50px 0 20px;
+}
+
+
+.box-p6{
+    width: 100%;
+    background-image: url('./anh/back-p6-10.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.p6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid black;
+    padding-bottom: 30px;
+}
+
+
+.p6-lb1{
+    font-family: var(--font-mtd);
+    font-size: 2.2em;
+    margin: 50px 0 30px;
+}
+
+.box-pp{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+.box-p{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.p6-p1{
+    font-family: var(--font-svn);
+    font-size: .75em;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.p6-dot1{
+    font-size: .5em;
+    margin: 20px 0;
+}
+
+.p6-a{
+    width: 350px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--font-svn);
+    font-size: .7em;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 30px 0 100px;
+}
+
+.p6-img{
+    width: 75%;
+    margin-bottom: 100px;
+}
+
+
+.box-p7{
+    width: 100%;
+    background-image: url('./anh/back-p8-10.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.p7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid black;
+    padding-bottom: 30px;
+}
+
+.p7-lb1{
+    font-family: var(--font-mtd);
+    font-size: 2.5em;
+    margin-top: 100px;
+}
+
+.p7-dot1{
+    font-size: .5em;
+    margin: 50px 0;
+}
+
+.p7-lb2{
+    font-family: var(--font-svn);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .9em;
+    margin-bottom: 20px;
+}
+
+.box-p{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    border-top: 2px solid var(--primary-color);
+    font-family: var(--font-svn);
+    font-weight: 00;
+    font-size: .7em;
+    padding-top: 5px;
+}
+
+.p7-p1{
+    margin-bottom: 15px;
+}
+
+.p7-p{
+    margin-bottom: 5px;
+}
+
+
+.p7-a{
+    width: 150px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--font-svn);
+    font-size: .7em;
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin: 5px 0 15px;
+}
+
+.p7-a1{
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 2px 10px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: .7em;
+}
+
+
+
+
+
+
+
+/* ====FORM+============== */
+
+form{
+    color: var(--primary-color);
+    background-image: url('./anh/back-p9-10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-flow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lb-form1{
+    font-family: var(--font-mtd);
+    font-size: 2.5em;
+    margin-top: 100px;
+}
+
+.a-product{
+    width: 250px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--font-svn);
+    font-size: .7em;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px 0 0;
+}
+
+.img-form1{
+    width: 25%;
+    margin-top: 130px;
+}
+
+.feed-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.lb-form2{
+    font-family: var(--font-mtd);
+    font-size: 2.5em;
+    margin-top: 100px;
+}
+
+.lb-form3{
+    font-family: var(--font-svn);
+    font-size: .7em;
+    font-style: italic;
+}
+
+.lb-dot{
+    font-size: .5em;
+    margin: 30px 0;
+}
+
+.in-fe{
+    font-family: var(--font-svn);
+    font-size: .8em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.in-fe2{
+    font-family: var(--font-svn);
+    font-size: .6em;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.line{
+    width: 80%;
+    margin: 10px 0 ;
+}
+
+[type="radio"] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    /* overflow: hidden; */
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    /* white-space: nowrap; */
+    }
+
+.container-check {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: var(--font-lora);
+    font-weight: 300;
+    }
+    
+  
+.box-feed:checked+label {
+    color: #fff;
+    background-color: black;
+    }
+    
+.box-feed{
+  border-radius: 20px;
+  width: 100px;
+}
+    
+.box-check{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-lora);
+  border-radius: 20px;
+  /*margin: 0 15px;*/
+}
+
+.box-feed:checked+label {
+color: #fff;
+background-color: var(--primary-color);
+}
+
+.box-feed{
+border-radius: 20px;
+}
+
+.box-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lb-text{
+    font-family: var(--font-svn);
+    font-size: .7em;
+    margin: 20px 0 5px;
+}
+
+.fa-circle{
+    font-size: 5px;
+    padding: 0 10px;
+}
+
+.lb-text2{
+    font-family: var(--font-svn);
+    font-size: .6em;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.til-check2 {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: 400;
+    font-family: var(--font-svn);
+    display: flex;
+    justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+    gap: 1px; /* Tùy chọn, tạo khoảng cách giữa các phần tử nếu cần */
+  }
+
+  .til-check {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: 400;
+    font-family: var(--font-svn);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+    gap: 1px; /* Tùy chọn, tạo khoảng cách giữa các phần tử nếu cần */
+  }
+  
+  
+
+.check-box {
+  width: 150px;
+  text-align: center;
+display: inline-block;
+border: 2px solid var(--primary-color);
+padding: 5px 10px;
+margin: 5px 20px;
+border-radius: 10px;
+font-style: normal;
+background-color: #fff;
+}
+.box-feed:checked+label {
+color: #fff;
+background-color: var(--primary-color);
+}
+.check-box:hover, .check-box2:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.check-box2 {
+    width: 250px;
+    text-align: center;
+  display: inline-block;
+  border: 2px solid var(--primary-color);
+  padding: 5px 10px;
+  margin: 5px 20px;
+  border-radius: 10px;
+  font-style: normal;
+  background-color: #fff;
+  }
+  .box-ten{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: var(--font-lora);
+    margin: 10px 0 0;
+    }
+    
+    .inp-ten {
+        width: 70%;
+        height: 35px;
+        text-align: left; /* Keeps text aligned to the left */
+        border-radius: 20px;
+        border: 2px solid var(--primary-color);
+        font-size: .8em;
+        font-weight: 300;
+        padding: 5px 5px 15px 10px;
+        margin: 5px 0;
+        display: flex; /* Make the input a flex container */
+        align-items: center; /* Vertically center the placeholder text */
+        justify-content: center; /* Keeps the text left-aligned */
+    }
+        
+    .inp-ten2 {
+        width: 70%;
+        height: 30px;
+        text-align: left; /* Keeps text aligned to the left */
+        border-radius: 20px;
+        border: 2px solid var(--primary-color);
+        font-size: .8em;
+        font-weight: 300;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+    
+    .inp-ten::placeholder {
+        text-align: left;
+        white-space: pre-line;
+    }
+    
+
+    textarea {
+        width: 70%;
+        padding: 10px;
+        font-size: .75em;
+        border: 2px solid var(--primary-color);
+        border-radius: 20px;
+        resize: vertical; /* Cho phép thay đổi chiều cao */
+    }
+    
+
+input::placeholder, textarea::placeholder{
+    font-family: var(--font-svn);
+    font-weight: 300;
+    font-size: .75em;
+    white-space: pre-line;  /* Cho phép ngắt dòng */
+}
+
+
+    
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.xacnhan{
+    height: 30px;
+    font-size: .8em;
+    background: var(--primary-color);
+    color: #fff;
+    margin: 20px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    width: 200px;
+    font-weight: 300;
+    font-family: var(--font-svn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+    .xacnhan:hover{
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.end{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.box-end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lb-end1{
+    font-family: var(--font-mtd);
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.lb-end2{
+    font-family: var(--font-svn);
+    font-size: .5em;
+    margin-bottom: 100px;
+}
+
+
+
+/* Đảm bảo box-circle luôn cố định và không ảnh hưởng đến nội dung trang */
+.box-circle {
+    position: fixed; /* Đảm bảo box-circle luôn cố định trên màn hình */
+    bottom: 20px; /* Đẩy box-circle xuống một chút từ trên cùng */
+    right: 20px; /* Căn box-circle về phía bên phải */
+    z-index: 9999; /* Đảm bảo box-circle nằm trên các phần tử khác */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .lb-circle {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #111;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-family: var(--font-gotham);
+    text-align: center;
+    line-height: 10px;
+  }
+  
+  /* Thêm hiệu ứng hover cho label */
+  .lb-circle:hover {
+    color: #3498db;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
+    overflow: hidden; /* Đảm bảo hình ảnh không bị tràn ra ngoài */
+    transition: transform 0.5s ease; /* Chuyển động mượt mà */
+    z-index: 2;
+  }
+  
+  /* Khi hình tròn được hover */
+  .circle:hover {
+    transform: scale(1.1); /* Tăng kích thước hình tròn khi hover */
+    /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); */
+  }
+  
+  /* Hình ảnh bên trong hình tròn */
+  .circle-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  /* Hiệu ứng xoay liên tục */
+  .circle.spin {
+    animation: spin 1s linear infinite; /* Xoay liên tục */
+  }
+  
+  /* Định nghĩa hoạt ảnh xoay */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .box-back{
+    background-image: url('../chien-diem/fonts/./anh/back-02.png');
+    padding-bottom: 50px;
+  }
+
+
+
+
+
+/* ================================ */
+
+@media (max-width: 480px){
+    .container {
+        width: 100%;
+    }
+    .box-image{
+        margin-left: -15px;
+        
+    }
+    .imge{
+        width: 40%;
+    }
+    .in-fe{
+        font-size: .6em;
+    }
+    .in-fe2{
+        font-size: .45em;
+    }
+    .lb-line1, .lb-name{
+        font-size: 2.7em;
+    }
+    .kinhmoi{
+        font-size: .6em;
+    }
+    textarea {
+        width: 90%;
+        padding: 10px;
+        font-size: .75em;
+    }
+    .til-check{
+        font-size: 7.5px;
+    }
+    .check-box2{
+        width: 300px;
+    }
+    input::placeholder, textarea::placeholder{
+        font-size: 8px;
+    }
+    .lb-text{
+        font-size: .6em;
+    }
+    .check-box{
+        width: 160px;
+    }
+  }
+  
