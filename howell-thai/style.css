@@ -914,6 +914,7 @@ form{
     font-size: .6em;
     font-weight: 400;
     font-style: italic;
+    text-transform: uppercase;
 }
 
 .line{
