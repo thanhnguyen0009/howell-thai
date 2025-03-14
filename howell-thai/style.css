@@ -894,6 +894,7 @@ form{
     font-family: var(--font-svn);
     font-size: .7em;
     font-style: italic;
+    text-transform: uppercase;
 }
 
 .lb-dot{
@@ -1472,7 +1473,7 @@ div.hamburger-box.active .bottom {
         font-size: .6em;
     }
     .in-fe2{
-        font-size: .45em;
+        font-size: .4em;
     }
     .lb-line1, .lb-name{
         font-size: 2.7em;
