@@ -354,7 +354,7 @@
     width: 100%;
 }
 
-.box-p1{
+#home{
     width: 100%;
     background-image: url('./anh/back-p1-10.png');
     background-size: cover;
@@ -510,7 +510,7 @@
     padding: 50px 0;
 }
 
-.box-p4{
+#timeline-dresscode{
     width: 100%;
     background-image: url('./anh/back-p4-10.png');
     background-size: cover;
@@ -668,7 +668,7 @@
 }
 
 
-.box-p6{
+#exploring{
     width: 100%;
     background-image: url('./anh/back-p6-10.png');
     background-size: cover;
@@ -743,7 +743,7 @@
 }
 
 
-.box-p7{
+#travel{
     width: 100%;
     background-image: url('./anh/back-p8-10.png');
     background-size: cover;
@@ -1248,6 +1248,211 @@ input::placeholder, textarea::placeholder{
 
 
 
+/* ============nav================= */
+
+.main-header{
+	background: #fff;
+	margin:0;
+}
+ul li{
+  list-style-type: none
+}
+.caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+
+.stripe {
+  height: 70px;
+}
+div.hamburger-box {
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	cursor: pointer;
+	background: #fff;
+	z-index:9999;
+}
+.hamburger-box.active span{
+	display:none;
+} 
+.hamburger-box span {
+	color: #000;
+	background: #fff;
+	position: absolute;
+	line-height: 50px;
+	font-size: 16px;
+	right: 50px;
+	padding: 0 10px;
+	display: inline-block;
+	height: 50px;
+	width: 105%;
+}
+div.hamburger-box .bun,
+div.hamburger-box .meat {
+	width: 30px;
+	height: 5px;
+	border-radius: 30%;
+	background-color: #111;
+	position: absolute;
+	transition: all 600ms ease-in-out;
+	-webkit-transition: all 600ms ease-in-out;
+	transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+}
+div.hamburger-box .top {
+  top: 12px;
+}
+div.hamburger-box .meat {
+  top: 50%;
+  margin-top: -3px;
+}
+div.hamburger-box .bottom {
+  bottom: 13px;
+}
+div.shamburger-box:hover .top {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 18px;
+  top: 17px;
+}
+div.hamburger-box.active .top {
+  transform: rotate(-405deg);
+  -webkit-transform: rotate(-405deg);
+  width: 28px;
+  top: 35%;
+}
+div.hamburger-box.active .top,
+div.hamburger-box.active .bottom {
+  transition: all 800ms ease-in-out;
+}
+div.shamburger-box:hover .meat {
+  width: 22px;
+  margin-left: -10px;
+}
+div.hamburger-box.active .meat {
+  width: 0px;
+  margin-left: 0px;
+}
+div.shamburger-box:hover .bottom {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 18px;
+  bottom: 17px;
+}
+div.hamburger-box.active .bottom {
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  width: 28px;
+  bottom: 55%;
+}
+
+	.super-container {
+	  position: relative;
+    height:100%;
+    z-index: 999;
+	}
+	.slide-container {
+	  position: fixed;
+	  text-align: center;
+    height:100%;
+    right:0;
+	}
+	a.toggle {
+	  position: relative;
+	  top: 30px;
+	}
+	.menu {
+	  width: 200px;
+	  background-color: #fff;
+	  position: absolute;
+	  top: 0;
+    right: -200px;
+	  margin: 0;
+	  text-align: left;
+	  z-index:99;
+    height:100%;
+    font-family: var(--font-svn);
+    font-size: 1em;
+	}
+.menu.active{
+  right:0;
+}
+	.menu a {
+		transition: all 200ms ease-in-out;
+		-webkit-transition: all 200ms ease-in-out;
+	  color: #111;
+	  text-decoration: none;
+	  display: block;
+	  padding: 12px 15px;
+	  border-top: 1px solid rgba(0, 0, 0, 0.1);
+	  border-bottom: 1px solid rgba(200, 200, 200, 0.1);
+	}
+	.menu a:first-child {
+	  border-top: none;
+	}
+	/* Đặt hiệu ứng mặc định cho liên kết */
+.menu a {
+  text-decoration: none; /* Bỏ gạch chân mặc định */
+  transition: all 0.3s ease; /* Thêm hiệu ứng mượt mà cho tất cả các thuộc tính */
+}
+
+/* Khi hover vào liên kết */
+.menu a:hover {
+  text-decoration: underline; /* Thêm gạch chân khi hover */
+  text-decoration-color: #ff5733; /* Màu gạch chân */
+  background-color: transparent; /* Bỏ nền khi hover */
+  transform: scale(1.1); /* Tăng kích thước nhẹ khi hover */
+}
+
+	.slide-container, .menu {
+		transition: right 300ms ease-out;
+		-webkit-transition: right 300ms ease-out;
+	}
+	.menu-on .slide-container {
+	  left: -200px;
+	}
+	div.hamburger-box{
+		z-index: 999;
+		width: 50px;
+		right: 0px;
+    color: #111;
+	}
+	.menu ul{
+		/* background: #fff; */
+		padding:0px;
+	}
+	.hamburger-box span{
+		right: 55px;
+    color: #111;
+	}
+	.hamburger-box.active {
+		top:0;
+		background: #fff;
+	}
+	.hamburger-box.active .bun{
+		background: #111;
+	}
+	div.hamburger-box.active .top, div.hamburger-box.active .bottom {
+		right: 10px;
+		top: 20px;
+	}
+
+
+  
+
+
 
 /* ================================ */
 
@@ -1296,6 +1501,9 @@ input::placeholder, textarea::placeholder{
     }
     .inp-ten, .inp-ten2{
         width: 85%;
+    }
+    .menu{
+        font-size: .7em;
     }
   }
   
