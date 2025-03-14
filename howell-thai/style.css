@@ -379,7 +379,7 @@
 }
 
 .p1-img1{
-    width: 30%;
+    width: 50%;
     margin-top: 30px;
 }
 
@@ -913,6 +913,7 @@ form{
     font-size: .6em;
     font-weight: 400;
     font-style: italic;
+    text-transform: uppercase;
 }
 
 .line{
